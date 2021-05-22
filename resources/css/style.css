@@ -8,8 +8,13 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	
+	
 }
 img {
+	height: auto;
+	width: 100%;
+}
+video {
 	height: auto;
 	width: 100%;
 }
@@ -39,6 +44,7 @@ h4 {
 	margin: 0;
 	padding: 4px 0;
 	border: 0;
+	font-weight: 300;
 }
 
 /* Header styles */
@@ -200,7 +206,7 @@ a .cta-info {
 	background-color: #e5e5e5;
 	padding: 32px 72px;
 	text-align: center;
-	overflow: hidden;
+	
 	
 }
 
@@ -223,4 +229,35 @@ a .cta-info {
 }
 .learn-text {
 	padding: 16px;
+}
+
+/* Thesis section styling */
+.thesis-container {
+	width: 100%;
+}
+.thesis-flex-container {
+	display: flex;
+	
+}
+.thesis-left {
+	width: 60%;
+}
+.thesis-right {
+	width: 40%;
+	diplay: flex;
+	flex-direction: column;
+}
+.thesis-fisma,
+.thesis-now {
+	display: flex;
+	align-items: center;
+}
+.thesis-fisma {
+	background-color: #e5e5e5;
+}
+.thesis-image {
+	width: 35%;
+}
+.thesis-text {
+	width: 65%;
 }
