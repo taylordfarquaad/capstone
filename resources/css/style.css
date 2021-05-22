@@ -7,6 +7,7 @@ body {
 	color: #36454F;
 	width: 100%;
 	margin: 0 auto;
+	
 }
 img {
 	height: auto;
@@ -190,4 +191,36 @@ a span {
 }
 a .cta-info {
 	text-decoration: none;
+}
+
+/* Learning section style */
+
+.learning-container {
+	width: 100%;
+	background-color: #e5e5e5;
+	padding: 32px 72px;
+	text-align: center;
+	overflow: hidden;
+	
+}
+
+.learn-flex-container {
+	display: flex;
+}
+.learn-flex-row {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.learn-flex-box {
+	width: 20%;
+	min-width: 15%;
+	background-color: white;
+	text-align: left;
+	margin: 16px;
+	
+}
+.learn-text {
+	padding: 16px;
 }
